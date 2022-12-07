@@ -1,9 +1,9 @@
 branch-defaults:
   default:
-    environment: udacity-env
+    environment: udagram-env2
     group_suffix: null
 deploy:
-  artifact: Archive.zip
+  artifact: www/Archive.zip
 global:
   application_name: udagram
   branch: null

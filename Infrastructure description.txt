@@ -1,13 +1,19 @@
-The main Infrastructure Description:
+The main Infrastructure Description:  (its diagram is in the diagrams folder)
 
 1)frontend-> Angular
 
 2)backend-> Express
 
-3)database -> postgres
+3)database -> Postgres
 
 4)for hosting the backend -> Amazon Elastic Beanstalk
 
 5)for hosting the frontend -> Amazon S3
 
 6)for hosting the database  -> Amazon Relational Database
+
+
+The flow: (its diagram is in the diagrams folder)
+1) the user will connect with the front end which is hosted by the s3 bucket
+2) the API which is hosted by the elastic beanstalk will take the request from the user and will make a request to the database which is hosted by Amazon Relational Database
+3) the databse will respond to the API which will respond to the front-end to the user 

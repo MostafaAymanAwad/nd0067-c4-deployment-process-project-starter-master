@@ -1,0 +1,6 @@
+main pipeline:
+
+1) we should connect our ide (for example vscode) to our main repository on github
+2) Once any changes happen in the code we will commit it and push it to the repository
+3) Circleci will rebuild the whole the project and deploy the project to the cloud(AWS)
+4) The user will get the new changes to the website 

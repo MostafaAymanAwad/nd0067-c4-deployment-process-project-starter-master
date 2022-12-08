@@ -1,0 +1,13 @@
+The main Infrastructure Description:
+
+1)frontend-> Angular
+
+2)backend-> Express
+
+3)database -> postgres
+
+4)for hosting the backend -> Amazon Elastic Beanstalk
+
+5)for hosting the frontend -> Amazon S3
+
+6)for hosting the database  -> Amazon Relational Database
